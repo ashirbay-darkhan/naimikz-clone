@@ -1,0 +1,37 @@
+@import '../colors.module.scss';
+
+.spec-btn {
+    border-radius: 20px;
+    background: transparent;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin-right: 20px;
+    border: 1px solid #909090;
+    color: #909090;
+}
+
+.active {
+    background-color: #FFD60A;
+    border: none;
+    color: #000;
+}
+
+.span-primary {
+    color: $primary;
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    padding: 0 20px;
+}
+
+.slider {
+    margin-left: 10rem;
+}
+
+.img-card {
+    position: absolute;
+    margin-top: -10%;
+    
+}

@@ -1,0 +1,26 @@
+@import '../colors.module.scss';
+
+
+.tr-btn {
+    padding: 16px 30px;
+    background: transparent;
+    border: 2px solid #d7d7d7;
+    border-radius: 12px;
+    color: $text-gray;
+    font-weight: normal;
+    margin-right: 20px;
+
+    &:hover {
+        background: transparent;
+        border: 2px solid #909090;
+        color: #000;
+    }
+}
+
+.btn-icon {
+    color: #d7d7d7;
+
+    .tr-btn:hover &{
+        color: #909090;
+    }
+}

@@ -1,0 +1,47 @@
+@import '../colors.module.scss';
+
+
+.sidebar_menu {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.avatar_info {
+    text-align: center;
+    .avatar_name {
+
+    }
+
+    .spec_img {
+        width: 230px;
+        border-radius: 50%;
+    }
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    border: none;
+}
+
+.spec_gray_text {
+    color: $text-gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tr-blue-btn {
+    padding: 18px 40px;
+    font-size: 16px; 
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid $primary;
+    color: $primary;
+    font-weight: bold;
+
+    &:hover {
+        background-color: rgb(199, 251, 255);
+    }
+}

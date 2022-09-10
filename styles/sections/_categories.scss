@@ -1,0 +1,45 @@
+@import '../colors.module.scss';
+
+.sidebar-menu {
+    width: 100%;
+}
+
+.categories-list {
+    padding-left: 20px;
+}
+
+.blocks {
+    background-color: #fff;
+    padding: 40px 40px;
+    border-radius: 12px;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .block-body {
+        color: #1c1c1e;
+        font-size: bold;
+    }
+
+    .category-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .category-description {
+        color: #a1a1a1;
+    }
+}
+
+.cat_sub_title {
+    color: $primary;
+    font-weight: 700;
+}
+
+.cat-subservices {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    text-decoration: underline;
+}
+
